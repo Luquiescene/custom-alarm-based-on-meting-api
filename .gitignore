@@ -34,3 +34,6 @@ captures/
 # OS
 Thumbs.db
 .DS_Store
+
+# Blog
+blog.md
