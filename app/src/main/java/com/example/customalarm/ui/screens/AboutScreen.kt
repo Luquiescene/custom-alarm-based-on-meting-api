@@ -66,7 +66,7 @@ fun AboutScreen(onBack: () -> Unit) {
             LabelRow("作者", "Luquiescene")
 
             SectionHeader("联系方式")
-            LinkRow("博客", "https://luq-blog.xyz/2026-11-21-custom-alarm") { uriHandler.openUri("https://luq-blog.xyz/2026-11-21-custom-alarm") }
+            LinkRow("博客", "https://luq-blog.xyz/posts/2026-11-21-custom-alarm") { uriHandler.openUri("https://luq-blog.xyz/posts/2026-11-21-custom-alarm") }
             LinkRow("GitHub", "Luquiescene") { uriHandler.openUri("https://github.com/Luquiescene") }
             LinkRow("仓库", "Luquiescene/custom-alarm-based-on-meting-api") { uriHandler.openUri("https://github.com/Luquiescene/custom-alarm-based-on-meting-api") }
             LinkRow("邮箱", "luquiescene@163.com") { uriHandler.openUri("mailto:luquiescene@163.com") }
