@@ -74,8 +74,9 @@ adb install -r app/build/outputs/apk/debug/app-debug.apk
 ## 作者
 
 - 开发者：**Luquiescene**
-- 博客：<https://luq-blog.xyz>
+- 博客：<https://luq-blog.xyz/2026-11-21-custom-alarm>
 - GitHub：<https://github.com/Luquiescene>
+- 仓库：<https://github.com/Luquiescene/custom-alarm-based-on-meting-api>
 - 邮箱：<luquiescene@163.com>
 
 ## 开源协议

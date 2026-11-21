@@ -69,6 +69,9 @@ fun OnboardingScreen(onDone: () -> Unit, onUsage: () -> Unit) {
         PermissionCard(refresh, "全屏通知", "锁屏时也能全屏响铃", PermissionHelper.canUseFullScreenIntent(context)) {
             PermissionHelper.openFullScreenIntentSettings(context)
         }
+        PermissionCard(refresh, "显示在其他应用之上", "Android 14+ 侧载应用全屏拉起需要此权限", PermissionHelper.canDrawOverlays(context)) {
+            PermissionHelper.openDrawOverlaySettings(context)
+        }
         PermissionCard(refresh, "忽略电池优化", "避免被省电策略拦截", PermissionHelper.isIgnoringBatteryOptimizations(context)) {
             PermissionHelper.openBatteryOptimizationSettings(context)
         }
