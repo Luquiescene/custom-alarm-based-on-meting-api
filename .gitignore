@@ -1,0 +1,36 @@
+# Gradle
+.gradle/
+build/
+app/build/
+.kotlin/
+
+# Local configuration
+local.properties
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# Keystore / signing keys (never commit)
+*.jks
+*.keystore
+keystore.properties
+
+# Cached music (should never be committed)
+app/src/main/assets/music/
+music-cache/
+*.mp3
+*.m4a
+*.aac
+*.ogg
+*.flac
+
+# Logs / captures
+*.log
+captures/
+.navigation/
+
+# OS
+Thumbs.db
+.DS_Store

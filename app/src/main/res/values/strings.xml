@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">定制闹钟</string>
+    <string name="ringing_channel_name">响铃提醒</string>
+    <string name="ringing_channel_desc">闹钟响铃通知与全屏提醒</string>
+    <string name="notification_ringing_title">闹钟正在响铃</string>
+    <string name="notification_stop">停止</string>
+    <string name="notification_snooze">贪睡</string>
+</resources>
